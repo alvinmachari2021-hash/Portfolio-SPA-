@@ -22,6 +22,7 @@ export default function App() {
       year: 2025
     }
   ]);
+
   const [query, setQuery] = useState("");
 
   const filtered = useMemo(() => {
